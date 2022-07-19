@@ -2,7 +2,7 @@
 <section class="footer bg-dark">
     <footer class="container flex">
     <div class="icons">
-      <a href=""  class="bi bi-github" aria-label="Github"></a>
+      <a href="https://github.com/Jattiem/Vue-portfolio" target="blank"  class="bi bi-github" aria-label="Github"></a>
       <a href=""  class="bi bi-linkedin" aria-label="Linkedin"></a>
       <a href=""  class="bi bi-twitter" aria-label="Twitter"></a>
       <a href=""  class="bi bi-facebook"  aria-label="Facebook"></a>
