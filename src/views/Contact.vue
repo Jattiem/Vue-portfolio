@@ -1,5 +1,5 @@
 <template>
-    <section id="contact" class="py-5 bg-dark">
+    <section id="contact" class="py-5">
                 <h2 class="text-center">Contact Me</h2>
             <div class="d-flex justify-content-center container">
                 <div class="row">
@@ -43,9 +43,10 @@ export default {
 }
 h2{
     color: rgb(241, 239, 239);
+    margin-top: 10px;
 }
 section{
-    margin-top: 55px;
+    margin-top: 46px;
 }
 button{
     color: rgb(239, 234, 234);
@@ -58,6 +59,9 @@ button:hover{
 }
 .form-control{
     border: 3px solid rgb(141, 141, 141);
+}
+#contact{
+    background-color: black;
 }
 
 </style>
