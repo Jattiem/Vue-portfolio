@@ -5,7 +5,7 @@
       <div class="row mt-3">
         <!-- Column one -->
         <div class="col-md-6">
-          <img class="img-fluid" src="https://images.unsplash.com/photo-1544502062-f82887f03d1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80" alt="Image">
+          <img class="img-fluid" src="http://127.0.0.1:5500/Yaseen%20(1).JPG" alt="Image">
         </div>
         <!-- Column two -->
         <div id="column2" class="col-md-6">
@@ -18,7 +18,7 @@
               <p>Country : South Africa</p>
             </div>
             <div class="row">
-              <p>Location : South Africa</p>
+              <p>Location : Cape Town</p>
             </div>
             <div class="row">
               <p>Email : yaseenjattiem0000@gmail.com</p>
@@ -52,9 +52,13 @@ section{
     text-align: left;
   }
   img{
-    margin-top: 15px;
+    margin-top: 17px;
     border: 2px solid white;
     border-radius: 20px;
+    height: 350px;
+    width: 500px;
+    object-fit: cover;
+    object-position: 0 1px;
   }
   #about{
     background-color: black;

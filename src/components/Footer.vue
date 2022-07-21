@@ -3,11 +3,11 @@
     <footer class="container flex">
     <div class="icons">
       <a href="https://github.com/Jattiem/Vue-portfolio" target="blank"  class="bi bi-github" aria-label="Github"></a>
-      <a href=""  class="bi bi-linkedin" aria-label="Linkedin"></a>
-      <a href=""  class="bi bi-twitter" aria-label="Twitter"></a>
-      <a href=""  class="bi bi-facebook"  aria-label="Facebook"></a>
+      <a href="https://www.linkedin.com/feed/"  target="blank"  class="bi bi-linkedin" aria-label="Linkedin"></a>
+      <a href="https://twitter.com/home"  target="blank"  class="bi bi-twitter" aria-label="Twitter"></a>
+      <a href="https://www.facebook.com/"  target="blank"  class="bi bi-facebook"  aria-label="Facebook"></a>
     </div>
-      <div class="text-center py-2 text-white">© 2022 Copyright. All rights reserved</div>
+      <div class="text-center py-2 text-white">© 2022 Copyright. Yaseen Jattiem</div>
   </footer>
 </section>
 </template>
