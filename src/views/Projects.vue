@@ -1,6 +1,6 @@
 <template>
 <section id="projects" class="py-5">
-    <h2 class="text-center p-5 text-white">Projects</h2>
+    <h2 class="text-center p-5 text-white">Projects <i class="bi bi-card-heading"></i></h2>
 <div class="container">
   <div id="card" class="card col-md-4" style="width: 14rem;">
   <div class="card-body">
