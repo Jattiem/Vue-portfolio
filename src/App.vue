@@ -1,11 +1,11 @@
 <template>
  <Navbar></Navbar>
  <Footer></Footer>
+ <Home></Home>
 </template>
 <script>
 import Navbar from './components/Navbar.vue';
 import Footer from './components/Footer.vue';
-
 export default {
   components: {Navbar,Footer}
 }
