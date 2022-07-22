@@ -90,6 +90,10 @@ img{
 #card{
     margin: 20px;
 }
+#card:hover{
+  transform: scale(1.1);
+  transition: all 0.4s linear;
+}
 section{
     background-color: black;
     margin-bottom: -100px;

@@ -17,9 +17,11 @@ export default {
 }
 </script>
 <style scoped>
+section{
+  margin-bottom: -100px;
+}
 *{
   overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 .button{
  color: #090909;
@@ -45,7 +47,7 @@ export default {
   background-blend-mode: overlay;
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
+  background-attachment: fixed; 
 }
 h1{
    color: rgb(213, 57, 0);
