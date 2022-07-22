@@ -105,4 +105,7 @@ h2{
 .card-link:hover{
     color: gray;
 }
+@media only screen and (min-width:320px)  and (max-width: 321px) {
+  
+}
 </style>
