@@ -12,29 +12,29 @@
   </div>
   <div class="carousel-inner pb-5">
     <div class="carousel-item active">
-      <img id="img1" class="img-fluid" src="http://127.0.0.1:5500/image%20for%20testimonial/joel2.jpg" alt="">
+      <img id="img1" class="img-fluid" src="../assets/joel2.jpg" alt="">
       <h5 class="p-2">Joel Mukanya</h5>
       <p>Yaseen has exhibited a vital grasp of the HTML, CSS & Bootstrap topics we have covered in class. I see the great potential and recommend him.
       </p>
     </div>
     <div class="carousel-item">
-      <img id="img2" class="img-fluid"  src="http://127.0.0.1:5500/image%20for%20testimonial/Daniel%20(2).JPG" alt="">
+      <img id="img2" class="img-fluid"  src="../assets/Daniel(2).png" alt="">
       <h5 class="p-2">Daniel Fredericks</h5>
       <p>Yaseen is a person with great potential.I believe that he will be able to accomplish much and that he will be an asset to any company.
       </p>
     </div>
     <div class="carousel-item">
-      <img id="img3" class="img-fluid"  src="http://127.0.0.1:5500/image%20for%20testimonial/Clayton%20(1).JPG" alt="">
+      <img id="img3" class="img-fluid"  src="../assets/Clay.png" alt="">
       <h5 class="p-2">Clayton Adonis</h5>
       <p>The combination of his confidence and knowledge makes a valuable asset and he brightens up every room he is in</p>
     </div>
     <div class="carousel-item">
-      <img id="img4" class="img-fluid" src="http://127.0.0.1:5500/image%20for%20testimonial/Jared%20(1).JPG" alt="">
+      <img id="img4" class="img-fluid" src="../assets/Jar.png" alt="">
       <h5 class="p-2">Jared Isaacs</h5>
       <p>Yaseen is an outgoing, hardworking, creative web developer. Who sets out to achieve his goals through perseverance and determination..</p>
     </div>
     <div class="carousel-item">
-      <img id="img5" class="img-fluid" src="http://127.0.0.1:5500/image%20for%20testimonial/Muddathir%20(1).JPG" alt="">
+      <img id="img5" class="img-fluid" src="../assets/Muddathir(1).png" alt="">
       <h5 class="p-2">Muddathir Dawood</h5>
       <p>Yaseen is a developer with potential to go far in life.He will always be the underdog of the team and come with unexpected support.</p>
     </div>

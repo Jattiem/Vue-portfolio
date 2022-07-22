@@ -5,7 +5,7 @@
   <div id="card" class="card col-md-4" style="width: 14rem;">
   <div class="card-body">
     <h5 class="card-title">Html Website</h5>
-    <img class="img-fluid" src="http://127.0.0.1:5500/images%20for%20projects/Screenshot%202022-05-12%20112628.png" alt="">
+    <img id="imgfor" class="img-fluid" src="../assets/Nar.png" alt="">
     <a href="https://github.com/Jattiem/name" class="card-link"  target="blank">Github</a>
     <a href="https://flourishing-pony-1a9a82.netlify.app/" class="card-link"  target="blank">Netlify</a>
   </div>
@@ -14,7 +14,7 @@
 <div  id="card" class="card col-md-4" style="width: 14rem;">
   <div class="card-body">
     <h5 class="card-title">Css&Html Portfolio</h5>
-    <img  class="img-fluid" src="http://127.0.0.1:5500/images%20for%20projects/Screenshot%202022-05-12%20112221.png" alt="">
+    <img  class="img-fluid" src="../assets/CssHtmlPortfolio.png" alt="">
     <a href="https://github.com/Jattiem/portfolio" class="card-link" target="blank">Github</a>
     <a href="https://jovial-centaur-5b5cac.netlify.app/" class="card-link"  target="blank">Netlify</a>
   </div>
@@ -34,7 +34,7 @@
   <div id="card" class="card col-md-4" style="width: 14rem;">
   <div class="card-body">
     <h5 class="card-title">Rainbow</h5>
-    <img class="img-fluid" src="https://jovial-centaur-5b5cac.netlify.app/Screenshot%202022-04-22%20083414.png" alt="">
+    <img class="img-fluid" src="../assets/Rainbow.png" alt="">
     <a href="https://github.com/Jattiem/Rainbow" class="card-link"  target="blank">Github</a>
     <a href="https://meek-paprenjak-f44d29.netlify.app/" class="card-link"  target="blank">Netlify</a>
   </div>
@@ -104,6 +104,10 @@ h2{
 }
 .card-link:hover{
     color: gray;
+}
+#imgfor{
+    height: 109px;
+    width: 190px;
 }
 @media only screen and (min-width:320px)  and (max-width: 321px) {
   
