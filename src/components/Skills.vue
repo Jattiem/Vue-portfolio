@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row">
                         <div id="con" class="col-lg-4 col-md-12 col-sm-12">
-                            <img class="img-fluid" alt="image" src="https://armyyazilim.com/wp-content/uploads/2019/10/css.png">
+                            <img class="img-fluid" alt="image" src="https://i.postimg.cc/44wPZTYg/css.png">
                             <div class="p-3">
                               <p class="d-flex justify-content-center text-white">
                                 CSS3: <span>80%</span>
@@ -22,7 +22,7 @@
                             </div>
                         </div>
                         <div id="con"  class="col-lg-4 col-md-12 col-sm-12">
-                            <img class="img-fluid" alt="image" src="https://getbootstrap.com/docs/5.2/assets/img/bootstrap-icons.png">
+                            <img class="img-fluid" alt="image" src="https://i.postimg.cc/9FmWRyX9/bootstrap-icons.png">
                             <div class="p-3">
                               <p class="d-flex justify-content-center text-white">
                                 Bootstrap: <span>90%</span>
@@ -40,7 +40,7 @@
                             </div>
                         </div>
                         <div id="con"  class="col-lg-4 col-md-12 col-sm-12">
-                            <img class="img-fluid" alt="image" src="https://cdn.dribbble.com/users/66221/screenshots/1655593/html5.png">
+                            <img class="img-fluid" alt="image" src="https://i.postimg.cc/26dD3SPT/html5.png">
                             <div class="p-3">
                               <p class="d-flex justify-content-center text-white">
                                 HTML5: <span>97%</span>
@@ -58,7 +58,7 @@
                             </div>
                         </div>
                         <div id="con"  class="col-lg-4 col-md-12 col-sm-12">
-                            <img class="img-fluid" alt="image" src="https://flyclipart.com/thumb2/learn-how-to-code-892774.png">
+                            <img class="img-fluid" alt="image" src="https://i.postimg.cc/Nfmzcnv7/learn-how-to-code-892774.png">
                             <div class="p-3">
                               <p class="d-flex justify-content-center text-white">
                                 JavaScript: <span>20%</span>
@@ -76,7 +76,7 @@
                             </div>
                         </div>
                         <div id="con"  class="col-lg-4 col-md-12 col-sm-12">
-                            <img class="img-fluid" alt="image" src="https://miro.medium.com/max/1200/1*qHsE-PM5TLmqzmYjmlr6-A.png">
+                            <img class="img-fluid" alt="image" src="https://i.postimg.cc/zDCx2cms/1-q-Hs-E-PM5-TLmqzm-Yjmlr6-A.png">
                             <div class="p-3">
                               <p class="d-flex justify-content-center text-white">
                                 Vue.js: <span>40%</span>
@@ -94,7 +94,7 @@
                             </div>
                         </div>
                         <div id="con"  class="col-lg-4 col-md-12 col-sm-12">
-                            <img class="img-fluid" alt="image" src="https://www.simplilearn.com/ice9/free_resources_article_thumb/difference_between_sql_and_mysql.jpg">
+                            <img class="img-fluid" alt="image" src="https://i.postimg.cc/T2JXjhpX/difference-between-sql-and-mysql.jpg">
                             <div class="p-3">
                               <p class="d-flex justify-content-center text-white">
                                 mySQL: <span>20%</span>

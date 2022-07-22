@@ -5,7 +5,7 @@
   <div id="card" class="card col-md-4" style="width: 14rem;">
   <div class="card-body">
     <h5 class="card-title">Html Website</h5>
-    <img id="imgfor" class="img-fluid" src="../assets/Nar.png" alt="">
+    <img id="imgfor" class="img-fluid" src="https://i.postimg.cc/NfxRRhh0/Naruto.jpg" alt="">
     <a href="https://github.com/Jattiem/name" class="card-link"  target="blank">Github</a>
     <a href="https://flourishing-pony-1a9a82.netlify.app/" class="card-link"  target="blank">Netlify</a>
   </div>
@@ -14,7 +14,7 @@
 <div  id="card" class="card col-md-4" style="width: 14rem;">
   <div class="card-body">
     <h5 class="card-title">Css&Html Portfolio</h5>
-    <img  class="img-fluid" src="../assets/CssHtmlPortfolio.png" alt="">
+    <img  class="img-fluid" src="https://i.postimg.cc/SNmMSZXb/Css-Html-Portfolio.png" alt="">
     <a href="https://github.com/Jattiem/portfolio" class="card-link" target="blank">Github</a>
     <a href="https://jovial-centaur-5b5cac.netlify.app/" class="card-link"  target="blank">Netlify</a>
   </div>
@@ -23,7 +23,7 @@
 <div  id="card" class="card col-md-4" style="width: 14rem;">
   <div class="card-body">
     <h5 class="card-title">Calculator</h5>
-    <img  class="img-fluid" src="../assets/img3.png" alt="">
+    <img  class="img-fluid" src="https://i.postimg.cc/T2JK4rt7/Calculator.png" alt="">
     <a href="https://github.com/Jattiem/jsscalculator" class="card-link"  target="blank">Github</a>
     <a href="https://sweet-longma-3e1f27.netlify.app/" class="card-link"  target="blank">Netlify</a>
   </div>
@@ -34,7 +34,7 @@
   <div id="card" class="card col-md-4" style="width: 14rem;">
   <div class="card-body">
     <h5 class="card-title">Rainbow</h5>
-    <img class="img-fluid" src="../assets/Rainbow.png" alt="">
+    <img class="img-fluid" src="https://i.postimg.cc/t4Y7J8pw/Rainbow.png" alt="">
     <a href="https://github.com/Jattiem/Rainbow" class="card-link"  target="blank">Github</a>
     <a href="https://meek-paprenjak-f44d29.netlify.app/" class="card-link"  target="blank">Netlify</a>
   </div>
@@ -43,7 +43,7 @@
 <div  id="card" class="card col-md-4" style="width: 14rem;">
   <div class="card-body">
     <h5 class="card-title">Vue project</h5>
-    <img  class="img-fluid" src="../assets/img.png" alt="">
+    <img  class="img-fluid" src="https://i.postimg.cc/Dz1vbTDj/img.png" alt="">
     <a href="https://github.com/Jattiem/Property-listing" class="card-link"  target="blank">Github</a>
     <a href="https://monumental-dasik-d637e3.netlify.app/" class="card-link"  target="blank">Netlify</a>
   </div>
@@ -52,7 +52,7 @@
 <div  id="card" class="card col-md-4" style="width: 14rem;">
   <div class="card-body">
     <h5 class="card-title">Body Mass</h5>
-    <img  class="img-fluid" src="../assets/img2.png" alt="">
+    <img  class="img-fluid" src="https://i.postimg.cc/zXM8tvY2/BodyMass.png" alt="">
     <a href="https://github.com/Jattiem/BMI-calculator" class="card-link"  target="blank">Github</a>
     <a href="https://tiny-pegasus-052ed2.netlify.app/" class="card-link"  target="blank">Netlify</a>
   </div>

@@ -42,7 +42,7 @@ section{
              inset -4px -4px 12px #ffffff;
 }
 #home {
-  background: url(https://wallpapercave.com/wp/wp9221335.jpg),
+  background: url(https://i.postimg.cc/Cx260p61/wp9221335.jpg),
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
   background-blend-mode: overlay;
   background-size: cover;

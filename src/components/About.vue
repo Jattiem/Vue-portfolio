@@ -5,7 +5,7 @@
       <div class="row mt-3">
         <!-- Column one -->
         <div class="col-md-6">
-          <img class="img-fluid" src="../assets/Yaseen(1).jpg" alt="Image">
+          <img class="img-fluid" src="https://i.postimg.cc/GmRmj6j4/Yaseen-1.jpg" alt="Image">
         </div>
         <!-- Column two -->
         <div id="column2" class="col-md-6">

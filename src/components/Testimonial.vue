@@ -11,33 +11,46 @@
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="circle"></button>
   </div>
   <div class="carousel-inner pb-5">
-    <div id="box" class="carousel-item active">
-      <img id="img1" class="img-fluid" src="../assets/joel2.jpg" alt="">
-      <h5 class="p-2">Joel Mukanya</h5>
-      <p>Yaseen has exhibited a vital grasp of the HTML, CSS & Bootstrap topics we have covered in class. I see the great potential and recommend him.
+    <div id="box" class="carousel-item  " v-bind:class="{ active: index === 0 }" v-for="(mense,index) in mense" :key="index">
+        
+      <img id="img1" class="img-fluid" :src="mense.image" alt="image">
+      <p>{{mense.name}}</p>
+      <p>
+        {{mense.description}}
+      </p>
+    </div>
+    <!-- <div class="carousel-item">
+        <p>{{mense.title}}</p>
+      <img id="img2" class="img-fluid"  :src="mense.image" alt="image">
+      <p class="p-2">{{mense.name}}</p>
+      <p>
+        {{mense.description}}
       </p>
     </div>
     <div class="carousel-item">
-      <img id="img2" class="img-fluid"  src="../assets/Daniel(2).png" alt="">
-      <h5 class="p-2">Daniel Fredericks</h5>
-      <p>Yaseen is a person with great potential.I believe that he will be able to accomplish much and that he will be an asset to any company.
+        <h3>{{mense.title}}</h3>
+      <img id="img3" class="img-fluid"  :src="mense.image" alt="image">
+      <h5 class="p-2">{{mense.name}}</h5>
+      <p>
+        {{mense.description}}
       </p>
     </div>
     <div class="carousel-item">
-      <img id="img3" class="img-fluid"  src="../assets/Clay.png" alt="">
-      <h5 class="p-2">Clayton Adonis</h5>
-      <p>The combination of his confidence and knowledge makes a valuable asset and he brightens up every room he is in</p>
+        <h3>{{mense.title}}</h3>
+      <img id="img4" class="img-fluid" :src="mense.image" alt="image">
+      <h5 class="p-2">{{mense.name}}</h5>
+      <p>
+         {{mense.description}}
+      </p>
     </div>
     <div class="carousel-item">
-      <img id="img4" class="img-fluid" src="../assets/Jar.png" alt="">
-      <h5 class="p-2">Jared Isaacs</h5>
-      <p>Yaseen is an outgoing, hardworking, creative web developer. Who sets out to achieve his goals through perseverance and determination..</p>
-    </div>
-    <div class="carousel-item">
-      <img id="img5" class="img-fluid" src="../assets/Muddathir(1).png" alt="">
-      <h5 class="p-2">Muddathir Dawood</h5>
-      <p>Yaseen is a developer with potential to go far in life.He will always be the underdog of the team and come with unexpected support.</p>
-    </div>
+        <h3>{{mense.title}}</h3>
+      <img id="img5" class="img-fluid" :src="mense.image" alt="image">
+      <h5 class="p-2 text-white">{{mense.name}}</h5>
+      <p>
+         {{mense.description}}
+      </p>
+    </div> -->
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
@@ -53,8 +66,12 @@
 </template>
 
 <script>
-export default {
-
+export default{
+    computed: {
+        mense(){
+            return this.$store.state.mense;
+        }
+    }
 }
 </script>
 
@@ -67,47 +84,16 @@ export default {
   height: 20px !important;
   aspect-ratio: 1 !important;
 }
-img{
-    border: 2px solid white;
-}
+
 #img1{
   object-fit: cover;
   width: 250px;
   height: 250px;
   aspect-ratio: 1;
   border-radius: 50%;
-}
-#img2{
-  object-fit: cover;
-  width: 250px;
-  height: 250px;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  object-position: 0 0.5px;
-}
-
-#img3{
-  object-fit: cover;
-  width: 250px;
-  height: 250px;
-  aspect-ratio: 1;
-  border-radius: 50%;
-}
-#img4{
-  object-fit: cover;
-  width: 250px;
-  height: 250px;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  object-position: 0 0.5px;
-}
-#img5{
-  object-fit: cover;
-  width: 250px;
-  height: 250px;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  object-position: 0 0.5px;
+  object-position: 0 0px;
+  padding-bottom: 10px;
+      /* border: 2px solid white; */
 }
 h2{
     text-align: center;
@@ -115,7 +101,7 @@ h2{
 }
 section{
     background-color: black;
-    margin-bottom: -77px;
+    margin-bottom: -70px;
 }
 p{
     color: white;
