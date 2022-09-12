@@ -37,6 +37,7 @@
 <style scoped>
 section{
   margin-top: 13px;
+  overflow-x: hidden;
 }
 #column2{
   padding-top: 18px;
