@@ -1,8 +1,8 @@
 <template>
-<section id="testemonial" class="py-5">
-  <div class="container text-black text-center p-5">
+<section id="testemonial" class="">
+  <div class="container text-black text-center">
     <h2 class="text-white">Testemonials</h2>
-    <div id="carouselExampleIndicators" class="carousel m-5" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel mt-4" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active circle"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="circle"></button>
@@ -19,38 +19,6 @@
         {{mense.description}}
       </p>
     </div>
-    <!-- <div class="carousel-item">
-        <p>{{mense.title}}</p>
-      <img id="img2" class="img-fluid"  :src="mense.image" alt="image">
-      <p class="p-2">{{mense.name}}</p>
-      <p>
-        {{mense.description}}
-      </p>
-    </div>
-    <div class="carousel-item">
-        <h3>{{mense.title}}</h3>
-      <img id="img3" class="img-fluid"  :src="mense.image" alt="image">
-      <h5 class="p-2">{{mense.name}}</h5>
-      <p>
-        {{mense.description}}
-      </p>
-    </div>
-    <div class="carousel-item">
-        <h3>{{mense.title}}</h3>
-      <img id="img4" class="img-fluid" :src="mense.image" alt="image">
-      <h5 class="p-2">{{mense.name}}</h5>
-      <p>
-         {{mense.description}}
-      </p>
-    </div>
-    <div class="carousel-item">
-        <h3>{{mense.title}}</h3>
-      <img id="img5" class="img-fluid" :src="mense.image" alt="image">
-      <h5 class="p-2 text-white">{{mense.name}}</h5>
-      <p>
-         {{mense.description}}
-      </p>
-    </div> -->
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
@@ -97,11 +65,14 @@ export default{
 }
 h2{
     text-align: center;
-    padding-top: 10px;
+    /* padding-top: 10px; */
 }
 section{
+    padding-top: 120px;
     background-color: black;
-    margin-bottom: -70px;
+    /* margin-bottom: -70px; */
+    overflow-x: hidden;
+    padding-bottom: 100px;
 }
 p{
     color: white;

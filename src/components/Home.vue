@@ -19,8 +19,6 @@ export default {
 <style scoped>
 section{
   margin-bottom: -100px;
-}
-*{
   overflow-x: hidden;
 }
 .button{

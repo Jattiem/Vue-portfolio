@@ -1,5 +1,5 @@
 <template>
-   <nav class="navbar navbar-expand-lg navbar-light bg-dark p-3">
+   <nav class="navbar navbar-expand-lg navbar-light bg-dark p-3 fixed-top">
         <div class="container-fluid">
             <div class="spinner">
                 <span>Y</span>
@@ -63,6 +63,7 @@ export default {
   top: 0;
   overflow: hidden;
   width: 100%;
+  height: 100px;
 }
 
 nav a {
