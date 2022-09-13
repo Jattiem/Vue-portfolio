@@ -21,7 +21,7 @@ export default {
  color: #090909;
  padding: 0.7em 1.7em;
  font-size: 15px;
- border-radius: 0.5em;
+ border-radius: 20px;
  background: #e8e8e8;
  border: 1px solid #e8e8e8;
  transition: all .3s;
@@ -32,6 +32,7 @@ export default {
   height: 40px;
   display: flex;
   justify-content: center;
+  
 }
 .button:active {
  color: #666;
