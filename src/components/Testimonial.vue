@@ -1,7 +1,7 @@
 <template>
-<section id="testemonial" class="">
-  <div class="container text-black text-center">
-    <h2 class="text-white">Testemonials</h2>
+<section id="testemonial" class="py-5 vh-100">
+  <div class="container pt-5 text-black text-center">
+    <h2 class="text-white pt-5">Testemonials</h2>
     <div id="carouselExampleIndicators" class="carousel mt-4" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active circle"></button>
@@ -61,18 +61,13 @@ export default{
   border-radius: 50%;
   object-position: 0 0px;
   padding-bottom: 10px;
-      /* border: 2px solid white; */
 }
 h2{
     text-align: center;
-    /* padding-top: 10px; */
 }
 section{
-    padding-top: 120px;
     background-color: black;
-    /* margin-bottom: -70px; */
     overflow-x: hidden;
-    padding-bottom: 100px;
 }
 p{
     color: white;

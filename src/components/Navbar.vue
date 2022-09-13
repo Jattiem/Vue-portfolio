@@ -1,5 +1,5 @@
 <template>
-   <nav class="navbar navbar-expand-lg navbar-light bg-dark p-3 fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark p-3 fixed-top">
         <div class="container-fluid">
             <div class="spinner">
                 <span>Y</span>
@@ -46,17 +46,35 @@
           </div>
         </div>
       </nav>
-  <router-view/>
+  <router-view />
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  /* border-radius: 10px; */
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray; 
+  /* border-radius: 10px; */
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: gray; 
+} */
 .navbar {
   padding: 30px;
   position: fixed;
@@ -76,85 +94,85 @@ nav a {
   padding-bottom: 2%;
 }
 nav {
- border-bottom: 2px solid white;
+  border-bottom: 2px solid white;
 }
-nav a:hover{
-    color: gray;
+nav a:hover {
+  color: gray;
 }
 
 nav a.router-link-exact-active {
-   color: rgb(213, 57, 0);
+  color: rgb(213, 57, 0);
 }
 
-#icon{
-    color: white;
+#icon {
+  color: white;
 }
 
-@media only screen and (min-width:320px)  and (max-width: 320px) {
-
+@media only screen and (min-width: 320px) and (max-width: 320px) {
 }
-.navbar{
-    padding-right:100%;
+.navbar {
+  padding-right: 100%;
 }
 
 .spinner {
- height: 50px;
- width: max-content;
- font-size: 18px;
- font-weight: 600;
- font-family: monospace;
- letter-spacing: 1em;
- color: #f5f5f5;
- filter: drop-shadow(0 0 10px);
- display: flex;
- justify-content: center;
- align-items: center;
+  height: 50px;
+  width: max-content;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: monospace;
+  letter-spacing: 1em;
+  color: #f5f5f5;
+  filter: drop-shadow(0 0 10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .spinner span {
- animation: loading6454 1.75s ease infinite;
+  animation: loading6454 1.75s ease infinite;
 }
 
 .spinner span:nth-child(2) {
- animation-delay: 0.25s;
+  animation-delay: 0.25s;
 }
 
 .spinner span:nth-child(3) {
- animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 
 .spinner span:nth-child(4) {
- animation-delay: 0.75s;
+  animation-delay: 0.75s;
 }
 
 .spinner span:nth-child(5) {
- animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 .spinner span:nth-child(6) {
- animation-delay: 1.25s;
+  animation-delay: 1.25s;
 }
 
 .spinner span:nth-child(7) {
- animation-delay: 1.5s;
+  animation-delay: 1.5s;
 }
 
 @keyframes loading6454 {
- 0%, 100% {
-  transform: translateY(0);
- }
+  0%,
+  100% {
+    transform: translateY(0);
+  }
 
- 50% {
-  transform: translateY(-10px);
- }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
-ul li{
-    display: flex;
-    justify-content: start  ;
+ul li {
+  display: flex;
+  justify-content: start;
 }
-.nav-item{
-    padding-right: 10px;
-    margin-right: 40px;
+.nav-item {
+  padding-right: 10px;
+  margin-right: 40px;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
-  <section class="py-5" id="about">
-    <div class="container flex p-5">
-        <h2 class="text-center" >About Me</h2>
+  <section class="py-5 vh-100" id="about">
+    <div class="container flex pt-5">
+        <h2 class="text-center pt-5">About Me</h2>
       <div class="row mt-3">
         <!-- Column one -->
         <div class="col-md-6">
@@ -36,7 +36,7 @@
 </template>
 <style scoped>
 section{
-  margin-top: 13px;
+  /* margin-top: 13px; */
   overflow-x: hidden;
 }
 #column2{

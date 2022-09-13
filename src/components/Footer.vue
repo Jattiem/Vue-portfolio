@@ -1,5 +1,5 @@
 <template>
-  <footer id="footer" class="bg-dark fixed-bottom">
+  <footer id="footer" class="bg-dark">
       <div class="container">
         <div class="rounded-social-buttons">
                   <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
@@ -49,7 +49,7 @@ margin-bottom: -11px;
 display: inline-block;
 position: relative;
 cursor: pointer;
-width: 3.110rem;
+width: 3.120rem;
 height: 3.110rem;
 border: 0.125rem solid transparent;
 padding: 0;

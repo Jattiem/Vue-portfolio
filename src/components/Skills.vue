@@ -1,5 +1,5 @@
 <template>
-  <section class="py-5 text-center" id="skills">
+  <section class="py-5 text-center vh-100" id="skills">
     <h2 class="text-center text-white p-5">Skills</h2>
     <div class="container">
       <div class="row">

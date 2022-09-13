@@ -1,6 +1,6 @@
 <template>
-  <section class="bg-dark text-light vh-100" id="home">
-    <div id="title" class="container  d-flex justify-content-center align-items-center flex-column h-100">
+  <section class="bg-dark text-light vh-100 py-5" id="home">
+    <div id="title" class="container d-flex justify-content-center align-items-center flex-column h-100">
       <h5 class="text-center">Hi I'm</h5>
       <h1 class="text-center">Yaseen Jattiem</h1>
       <h3 class="text-center">
@@ -17,14 +17,10 @@ export default {
 }
 </script>
 <style scoped>
-section{
-  margin-bottom: -100px;
-  overflow-x: hidden;
-}
 .button{
  color: #090909;
  padding: 0.7em 1.7em;
- font-size: 15  px;
+ font-size: 15px;
  border-radius: 0.5em;
  background: #e8e8e8;
  border: 1px solid #e8e8e8;
@@ -32,7 +28,10 @@ section{
  box-shadow: 6px 6px 12px gray,
              -6px -6px 12px gray;
   text-decoration: none;
-  size: 10px;
+  width: 480px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
 }
 .button:active {
  color: #666;

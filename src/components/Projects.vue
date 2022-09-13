@@ -1,5 +1,5 @@
 <template>
-  <section id="projects" class="py-5">
+  <section id="projects" class="py-5 vh-100">
     <h2 class="text-center p-5 text-white">Projects</h2>
     <div class="container d-flex justify-content-center" v-if="projects">
       <div
