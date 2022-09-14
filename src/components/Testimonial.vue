@@ -1,5 +1,5 @@
 <template>
-<section id="testemonial" class="py-5 vh-100">
+<section id="testimonial" class="py-5 vh-100">
   <div class="container pt-5 text-black text-center">
     <h2 class="text-white pt-5">Testemonials</h2>
     <div id="carouselExampleIndicators" class="carousel mt-4" data-bs-ride="carousel">
@@ -15,7 +15,7 @@
         
       <img id="img1" class="img-fluid" :src="mense.image" alt="image">
       <p>{{mense.name}}</p>
-      <p>
+      <p class="des">
         {{mense.description}}
       </p>
     </div>
@@ -44,6 +44,14 @@ export default{
 </script>
 
 <style scoped>
+  #testimonial {
+  background: url(https://i.postimg.cc/504ycvq6/black-and-white-art-graffiti-murals-heyapathy-surreal-comics-black-graffiti-images-collection.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.868), rgba(0, 0, 0, 0.873));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
 .circle{
   background-color: gray !important;
   aspect-ratio: 1 !important;
@@ -64,10 +72,6 @@ export default{
 }
 h2{
     text-align: center;
-}
-section{
-    background-color: black;
-    overflow-x: hidden;
 }
 p{
     color: white;

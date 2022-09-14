@@ -4,7 +4,7 @@
       <h2 class="text-center pt-5 pb-3">About Me</h2>
       <div class="row mt-3">
         <!-- Column one -->
-        <div class="col-md-6">
+        <div class="col-md-6 img">
           <img
             class="img-fluid"
             src="https://i.postimg.cc/GmRmj6j4/Yaseen-1.jpg"
@@ -15,17 +15,15 @@
         <div id="column2" class="col-md-6">
           <p>
             Hello I'm
-            <span style="color: rgb(137, 132, 132)">Yaseen Jattiem</span>,An
-            aspiring Full Stack Developer.
+            <span style="color: gray">Yaseen Jattiem</span>,An aspiring Full
+            Stack Developer.
           </p>
           <p>
             My curiosity for coding led me to become more interested in
             coding,Since I know that technology is the norm for everyone I
             became more interested and wanted to do more with coding.Which led
             me to become a
-            <span style="color: rgb(137, 132, 132)"
-              >Aspring Full Stack Developer</span
-            >.
+            <span style="color: gray">Aspring Full Stack Developer</span>.
           </p>
           <div class="row">
             <p>D.O.B : 15/12/2003</p>
@@ -51,13 +49,19 @@
   </section>
 </template>
 <style scoped>
-section {
-  overflow-x: hidden;
+#about {
+  background: url(https://i.postimg.cc/RZR6htzB/Wonderful-Black-And-White-Wallpaper.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.868), rgba(0, 0, 0, 0.873));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 #column2 {
   padding-top: 18px;
   border-radius: 20px;
-  border: 1px solid white;
+  border: 2px solid white;
+  width: 600px;
 }
 
 h2 {
@@ -73,13 +77,12 @@ img {
   border: 2px solid white;
   border-radius: 20px;
   height: 400px;
-  width: 400px;
   object-fit: cover;
-  object-position: 0 1px;
+  object-position: 0 1px 1px;
   margin-left: 50px;
 }
-#about {
+/* #about {
   background-color: black;
-}
+} */
 </style>
 

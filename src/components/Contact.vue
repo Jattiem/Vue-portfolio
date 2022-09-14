@@ -4,7 +4,7 @@
       <h2 class="text-center pt-5">Contact Me</h2>
       <div class="row">
         <div class="form">
-          <form 
+          <form
             action="https://formspree.io/f/mnqwlpkg"
             role="form"
             method="post"
@@ -70,8 +70,20 @@ export default {};
 </script>
 
 <style scoped>
-* {
-  overflow: hidden;
+#contact {
+  background: url(https://i.postimg.cc/YSznq4Z5/79-799668-retro-wallpaper-scenic-wallpaper-zentangle-patterns.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.868), rgba(0, 0, 0, 0.873));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.form {
+  border: 2px solid white;
+  border-radius: 20px;
+  height: 470px;
+  width: 700px;
+  margin-left: 300px;
 }
 h2 {
   color: rgb(241, 239, 239);
@@ -88,15 +100,12 @@ button:hover {
 .form-control {
   border: 3px solid rgb(141, 141, 141);
 }
-#contact {
-  background-color: black;
+input {
+  width: 670px;
+  /* margin-left: 3px; */
 }
-input{
-    width: 600px;
-    margin-left: 350px;
-}
-textarea{
-    width: 600px;
-    margin-left: 350px;
+textarea {
+  width: 670px;
+  /* margin-left: 350px; */
 }
 </style>

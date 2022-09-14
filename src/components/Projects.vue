@@ -1,7 +1,7 @@
 <template>
   <section id="projects" class="py-5 vh-100">
-    <h2 class="text-center p-5 text-white">Projects</h2>
-    <div class="container d-flex justify-content-center" v-if="projects">
+    <div class="row col-md-6 container d-flex justify-content-center pt-5" v-if="projects">
+      <h2 class="text-center p-3 text-white pt-5">Projects</h2>
       <div
         v-for="project in projects"
         :key="project"
@@ -32,52 +32,23 @@ export default {
 </script>
 
 <style scoped>
-section {
-  overflow-x: hidden;
-  background-color: black;
-}
-img {
-  border: 2px solid black;
-  border-radius: 5px;
-}
-/* img {
-  border: 2px solid black;
-  border-radius: 10px;
-}
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 340px;
-  margin-top: -140px;
-  padding-top: 80px;
-}
-#card {
-  margin: 20px;
-}
-#card:hover {
-  transform: scale(1.1);
-  transition: all 0.4s linear;
-}
-  section {
-    background-color: black;
-    margin-bottom: -100px;
+  .card{
+   margin-bottom: 20px;
+   margin-left: 20px;
+   border: 2px solid white;
+   border-radius: 20px;
   }
-h2 {
-  margin-top: 10px;
+  .container{
+    margin-left: 375px;
+  }
+  #projects {
+  background: url(https://i.postimg.cc/8czCcn4h/HD-wallpaper-doodles-abstract-black-dark-design-doodle-drawing-patterns-pen-art.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.868), rgba(0, 0, 0, 0.873));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
-.card-link {
-  padding-top: 10px;
-  text-decoration: none;
-  color: black;
-}
-.card-link:hover {
-  color: gray;
-}
-#imgfor {
-  height: 109px;
-  width: 190px;
-} */
 @media only screen and (min-width: 320px) and (max-width: 321px) {
 }
 </style>

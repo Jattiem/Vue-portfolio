@@ -42,27 +42,26 @@ vertical-align: -0.200em;
 .rounded-social-buttons {
 text-align: center;
 padding-top: 10px;
-/* padding-bottom: -11px; */
 margin-bottom: -11px;
 }
 .rounded-social-buttons .social-button {
-display: inline-block;
-position: relative;
-cursor: pointer;
-width: 3.120rem;
-height: 3.110rem;
-border: 0.125rem solid transparent;
-padding: 0;
-text-decoration: none;
-text-align: center;
-color: #fefefe;
-font-size: 1.5625rem;
-font-weight: normal;
-line-height: 2em;
-border-radius: 1.6875rem;
-transition: all 0.5s ease;
-margin-right: 0.40rem;
-margin-bottom: 0.25rem;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.110rem;
+  height: 3.110rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.40rem;
+  margin-bottom: 0.25rem;
 }
 .rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
 -webkit-transform: rotate(360deg);

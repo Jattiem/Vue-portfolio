@@ -1,7 +1,7 @@
 <template>
-  <section class="py-5 text-center vh-100" id="skills">
-    <h2 class="text-center text-white p-5">Skills</h2>
-    <div class="container">
+  <section class="py-5 text-center vh-100 pt-5" id="skills">
+    <div class="container pt-5">
+      <h2 class="text-center text-white pt-5">Skills</h2>
       <div class="row">
         <div id="con" class="col-lg-4 col-md-12 col-sm-12">
           <img
@@ -80,8 +80,13 @@
   </section>
 </template>
 <style scoped>
-h2 {
-  margin-top: 15px;
+#skills {
+  background: url(https://i.postimg.cc/DwC7NZyc/black-wallpaper-29.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.851), rgba(0, 0, 0, 0.837));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 img {
   border-radius: 10px;
@@ -95,9 +100,6 @@ img {
   width: 30%;
   display: flex;
   margin-left: 35%;
-}
-section {
-  background-color: black;
 }
 #con {
   height: 196px;
