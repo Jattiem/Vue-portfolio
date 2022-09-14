@@ -20,7 +20,7 @@ export default {
 .button{
  color: #090909;
  padding: 0.7em 1.7em;
- font-size: 15px;
+ font-size: 13px;
  border-radius: 20px;
  background: #e8e8e8;
  border: 1px solid #e8e8e8;
@@ -32,6 +32,7 @@ export default {
   height: 40px;
   display: flex;
   justify-content: center;
+  font-weight: bold;
   
 }
 .button:active {

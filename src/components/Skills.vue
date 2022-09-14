@@ -80,6 +80,10 @@
   </section>
 </template>
 <style scoped>
+  .row{
+    padding-left: 200px;
+    padding-right: 200px;
+  }
 #skills {
   background: url(https://i.postimg.cc/DwC7NZyc/black-wallpaper-29.jpg),
     linear-gradient(rgba(0, 0, 0, 0.851), rgba(0, 0, 0, 0.837));
@@ -95,14 +99,6 @@ img {
   margin-top: 10px;
   object-fit: cover;
   width: 200px;
-}
-.progress {
-  width: 30%;
-  display: flex;
-  margin-left: 35%;
-}
-#con {
-  height: 196px;
 }
 img:hover {
   transform: scale(1.1);

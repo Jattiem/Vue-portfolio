@@ -74,7 +74,7 @@ export default createStore({
       {
         id: 2,
         image: `https://i.postimg.cc/SNmMSZXb/Css-Html-Portfolio.png`,
-        name: "Css&Html Portfolio",
+        name: "Css&Html",
         github: "https://github.com/Jattiem/portfolio",
         netlify: "https://jovial-centaur-5b5cac.netlify.app/"
       },

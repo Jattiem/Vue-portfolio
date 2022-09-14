@@ -48,9 +48,9 @@ margin-bottom: -11px;
   display: inline-block;
   position: relative;
   cursor: pointer;
-  width: 3.110rem;
-  height: 3.110rem;
-  border: 0.125rem solid transparent;
+  width: 3.300rem;
+  height: 3.300rem;
+  border: 0.100rem solid transparent;
   padding: 0;
   text-decoration: none;
   text-align: center;
@@ -61,7 +61,7 @@ margin-bottom: -11px;
   border-radius: 1.6875rem;
   transition: all 0.5s ease;
   margin-right: 0.40rem;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.30rem;
 }
 .rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
 -webkit-transform: rotate(360deg);
