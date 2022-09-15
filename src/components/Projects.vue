@@ -68,7 +68,7 @@ img {
   margin-left: 375px;
 }
 #projects {
-  background: url(https://i.postimg.cc/8czCcn4h/HD-wallpaper-doodles-abstract-black-dark-design-doodle-drawing-patterns-pen-art.jpg),
+  background: url(https://i.postimg.cc/PJYJXtR7/894758.jpg),
     linear-gradient(rgba(0, 0, 0, 0.868), rgba(0, 0, 0, 0.873));
   background-blend-mode: overlay;
   background-size: cover;

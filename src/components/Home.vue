@@ -18,15 +18,13 @@ export default {
 </script>
 <style scoped>
 .button{
- color: #090909;
+ color: white;
  padding: 0.7em 1.7em;
  font-size: 13px;
  border-radius: 20px;
- background: #e8e8e8;
- border: 1px solid #e8e8e8;
+ background: transparent;
+ border: 2px solid #e8e8e8;
  transition: all .3s;
- box-shadow: 6px 6px 12px gray,
-             -6px -6px 12px gray;
   text-decoration: none;
   width: 480px;
   height: 40px;
@@ -36,9 +34,7 @@ export default {
   
 }
 .button:active {
- color: #666;
- box-shadow: inset 4px 4px 12px #c5c5c5,
-             inset -4px -4px 12px #ffffff;
+ color: white;
 }
 #home {
   background: url(https://i.postimg.cc/Cx260p61/wp9221335.jpg),

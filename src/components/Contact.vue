@@ -71,7 +71,7 @@ export default {};
 
 <style scoped>
 #contact {
-  background: url(https://i.postimg.cc/YSznq4Z5/79-799668-retro-wallpaper-scenic-wallpaper-zentangle-patterns.jpg),
+  background: url(https://i.postimg.cc/j24T3C9R/trippy-art05-4x.png),
     linear-gradient(rgba(0, 0, 0, 0.868), rgba(0, 0, 0, 0.873));
   background-blend-mode: overlay;
   background-size: cover;

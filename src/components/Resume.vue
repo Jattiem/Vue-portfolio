@@ -1,16 +1,12 @@
 <template>
-   <section class="vh-100 py-5"  id="resume">
-    <h2 class="text-center text-white">Resume</h2>
-      <div class="container-main pt-3">
+   <section class="vh-100 py-5 pt-5 mt-5"  id="resume" v-if="resume">
+    <h2 class="text-center text-white pt-5">Resume</h2>
+      <div class="container-main">
         <div class="container-one">
           <h3>Education</h3>
-          <div>
-            <h4>{{resume1[0].title}}</h4>
-                <p>{{resume1[0].par}}</p>
-            <h4>{{resume1[1].title}}</h4>
-                <p>{{resume1[1].par}}</p>
-            <h4>{{resume1[2].title}}</h4>
-                <p>{{resume1[2].par}}</p>
+          <div v-for="res in resume.resume1" :key="res">
+            <h4>{{res.title}}</h4>
+                <p>{{res.par}}</p>
           </div>
         </div>
         <br>
@@ -18,11 +14,11 @@
         <br>
         <br>
         <br>
-        <div class="container-two">
+        <div class="container-two" v-for="res in resume.resume2" :key="res">
           <h3>Experince</h3>
           <div>
-            <h4>{{resume1[0].title}}</h4>
-              <p>{{resume1[0].par}}</p>
+            <h4>{{res.title}}</h4>
+              <p>{{res.par}}</p>
           </div>
         </div>
       </div>
@@ -31,17 +27,22 @@
 <script>
   export default{
     computed:{
-      resume1(){
-        return this.state.resume.resume1;
+      resume(){
+        return this.$store.state.resume;
       },
-      resume2(){
-        return this.state.resume.resume2;
-      }
+      
     }
   }
 </script>
 <style scoped>
-
+#resume {
+  background: url(https://i.postimg.cc/T3nfs7DR/20526659.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.868), rgba(0, 0, 0, 0.873));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
   .container-main{
     display: flex;
     flex-direction: row;
@@ -69,8 +70,8 @@
     color: gray;
   }
 section{
-  padding-top: 100px;
-  padding-bottom: 100px;
+  /* padding-top: 100px; */
+  /* padding-bottom: 100px; */
   background-color: black;
   overflow-x: hidden;
 }

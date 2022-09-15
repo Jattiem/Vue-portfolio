@@ -1,51 +1,59 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-dark p-3 fixed-top">
-        <div class="container-fluid">
-            <div class="spinner">
-                <span>Y</span>
-                <span>C</span>
-                <span>O</span>
-                <span>D</span>
-                <span>I</span>
-                <span>N</span>
-                <span>G</span>
-            </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto  text-center">
-              <li class="nav-item">
-              	<router-link to="/">Home</router-link>
-              </li>
-              <br>
-              <li class="nav-item">
-              	<router-link to="/about">About</router-link>
-              </li>
-              <br>
-              <li class="nav-item">
-              	<router-link to="/resume">Resume</router-link>	
-              </li>
-              <br>
-              <li class="nav-item">
-                	<router-link to="/skills">Skills</router-link>
-              </li>
-              <br>
-              <li class="nav-item">
-                	<router-link to="/projects">Projects</router-link>
-              </li>
-              <br>
-              <li class="nav-item">
-                	<router-link to="/testimonial">Testimonials</router-link>
-              </li>
-              <br>
-              <li class="nav-item">
-                	<router-link to="/contact">Contact</router-link>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <div class="container-fluid">
+      <div class="spinner">
+        <span>Y</span>
+        <span>C</span>
+        <span>O</span>
+        <span>D</span>
+        <span>I</span>
+        <span>N</span>
+        <span>G</span>
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto text-center">
+          <li class="nav-item">
+            <router-link to="/">Home</router-link>
+          </li>
+          <br />
+          <li class="nav-item">
+            <router-link to="/about">About</router-link>
+          </li>
+          <br />
+          <li class="nav-item">
+            <router-link to="/resume">Resume</router-link>
+          </li>
+          <br />
+          <li class="nav-item">
+            <router-link to="/skills">Skills</router-link>
+          </li>
+          <br />
+          <li class="nav-item">
+            <router-link to="/projects">Projects</router-link>
+          </li>
+          <br />
+          <li class="nav-item">
+            <router-link to="/testimonial">Testimonials</router-link>
+          </li>
+          <br />
+          <li class="nav-item">
+            <router-link to="/contact">Contact</router-link>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <router-view />
 </template>
 
@@ -58,23 +66,11 @@ export default {};
 ::-webkit-scrollbar {
   width: 15px;
 }
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  /* border-radius: 10px; */
-}
- 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: gray; 
+  background: gray;
   /* border-radius: 10px; */
 }
-
-/* Handle on hover */
-/* ::-webkit-scrollbar-thumb:hover {
-  background: gray; 
-} */
 .navbar {
   padding: 30px;
   position: fixed;
@@ -122,7 +118,7 @@ nav a.router-link-exact-active {
   font-family: monospace;
   letter-spacing: 1em;
   color: #f5f5f5;
-  filter: drop-shadow(0 0 10px);
+  /* filter: drop-shadow(0 0 10px); */
   display: flex;
   justify-content: center;
   align-items: center;

@@ -68,7 +68,8 @@ export default{
   aspect-ratio: 1;
   border-radius: 50%;
   object-position: 0 0px;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
+  border: 2px solid white;
 }
 h2{
     text-align: center;

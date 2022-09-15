@@ -76,7 +76,7 @@ p {
 img {
   border: 2px solid white;
   border-radius: 20px;
-  height: 400px;
+  height: 440px;
   object-fit: cover;
   object-position: 0 1px 1px;
   margin-left: 50px;

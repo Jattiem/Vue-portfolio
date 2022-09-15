@@ -43,7 +43,7 @@
           <img
             class="img-fluid"
             alt="image"
-            src="https://i.postimg.cc/Nfmzcnv7/learn-how-to-code-892774.png"
+            src="https://i.postimg.cc/ZK1kP806/learn-how-to-code-892774-removebg-preview.png"
           />
           <div class="p-3">
             <p class="d-flex justify-content-center text-white">
@@ -55,7 +55,7 @@
           <img
             class="img-fluid"
             alt="image"
-            src="https://i.postimg.cc/zDCx2cms/1-q-Hs-E-PM5-TLmqzm-Yjmlr6-A.png"
+            src="https://i.postimg.cc/VvCgzC1c/1-q-Hs-E-PM5-TLmqzm-Yjmlr6-A-removebg-preview.png"
           />
           <div class="p-3">
             <p class="d-flex justify-content-center text-white">
@@ -99,9 +99,9 @@ img {
   margin-top: 10px;
   object-fit: cover;
   width: 200px;
+  transition: all 0.2s ease-in-out;
 }
 img:hover {
   transform: scale(1.1);
-  transition: all 0.4s linear;
 }
 </style>
