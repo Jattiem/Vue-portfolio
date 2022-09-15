@@ -118,7 +118,6 @@ nav a.router-link-exact-active {
   font-family: monospace;
   letter-spacing: 1em;
   color: #f5f5f5;
-  /* filter: drop-shadow(0 0 10px); */
   display: flex;
   justify-content: center;
   align-items: center;

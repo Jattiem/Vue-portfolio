@@ -4,7 +4,12 @@
       <h5 class="text-center">Hi I'm</h5>
       <h1 class="text-center">Yaseen Jattiem</h1>
       <h3 class="text-center">
-        An Aspiring Full Stack Developer
+        <!-- An Aspiring Full Stack Developer -->
+        <span style="color: rgb(213, 57, 0)">A</span>n
+        <span style="color: rgb(213, 57, 0)">A</span>spiring
+        <span style="color: rgb(213, 57, 0)">F</span>ull
+        <span style="color: rgb(213, 57, 0)">S</span>tack
+        <span style="color: rgb(213, 57, 0)">D</span>eveloper
       </h3>
         <router-link class="button" to="./about">See More</router-link>
     </div>    

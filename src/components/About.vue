@@ -61,7 +61,7 @@
   padding-top: 18px;
   border-radius: 20px;
   border: 2px solid white;
-  width: 600px;
+  width: 500px;
 }
 
 h2 {
@@ -78,8 +78,8 @@ img {
   border-radius: 20px;
   height: 440px;
   object-fit: cover;
-  object-position: 0 1px 1px;
-  margin-left: 50px;
+  object-position: 0 0px;
+  margin-left: 200px;
 }
 /* #about {
   background-color: black;

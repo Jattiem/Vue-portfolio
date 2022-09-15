@@ -31,7 +31,7 @@
           <img
             class="img-fluid"
             alt="image"
-            src="https://i.postimg.cc/26dD3SPT/html5.png"
+            src="https://i.postimg.cc/HskvLSYz/html5-removebg-preview.png"
           />
           <div class="p-3">
             <p class="d-flex justify-content-center text-white">

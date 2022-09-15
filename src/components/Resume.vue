@@ -15,7 +15,7 @@
         <br>
         <br>
         <div class="container-two" v-for="res in resume.resume2" :key="res">
-          <h3>Experince</h3>
+          <h3>Experience</h3>
           <div>
             <h4>{{res.title}}</h4>
               <p>{{res.par}}</p>
