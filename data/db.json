@@ -1,0 +1,20 @@
+{
+    "Resume": [{
+            "id": "1",
+            "Mainheading": "Education",
+            "FirstHeading": "Lotus High School:2017:",
+            "Sentence1": "This is the first school attented where I was first introduced to high school.",
+            "SecondHeading": "LifeChoice Academy: 2022Present:",
+            "Sentence2": "A Bootcamp program that provides you with the core fundamentals of Web Development, learning coding languages such as HTML, CSS, JavaScript, and more coding techniques. We taught interpersonal and self-development skills to take us further in life.",
+            "ThirdHeading": "Lentegeur HighSchool: 2018-2021:",
+            "Sentence3": "I went to Lentegeur High School in Lentegeur,Where I was always doing my work and attenting class regulary. I was always the one that kept to himself and did my work diligently."
+        },
+        {
+            "id": "2",
+            "Mainheading2": "Experince",
+            "FourthHeading": "Home Preparation: 2021:",
+            "Sentence4": "I worked for my aunt for a month where I had to prepare a home for someone that was going to rent."
+        }
+    ]
+  }
+
