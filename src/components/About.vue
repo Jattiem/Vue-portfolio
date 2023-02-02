@@ -15,7 +15,7 @@
         <div id="column2" class="col-md-6">
           <p>
             Hello I'm
-            <span style="color: gray">Yaseen poes Jattiem</span>,An aspiring Full
+            <span style="color: gray">Yaseen Jattiem</span>,An aspiring Full
             Stack Developer.
           </p>
           <p>
